@@ -1,0 +1,24 @@
+<!-- Loop over each object in the projects array -->
+{{#each menus as |menu| }}
+<div class="row mb-4 menu">
+  <div class="col-md-5">
+    <h2>
+      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+      {{!-- {{{get_emoji}}} --}}
+      <img {{menu.imageURL}} alt="Dish">
+      {{menu.name}}
+    </h2>
+    <p>
+      <span for="img" aria-label="money">💲</span>
+      <!-- Pass needed_funding value to the helper function -->
+      <span class="dollar-amount">{{format_amount menu.price}}</span>
+    </p>
+    <p>Ingredients {{menu.ingredients}}</p>
+  </div>
+  <div class="col-md-7">
+    <p>
+      {{menu.description}}
+    </p>
+  </div>
+</div>
+{{/each}}

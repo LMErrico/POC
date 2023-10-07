@@ -1,0 +1,16 @@
+[
+  {
+    "name": "QUICHE",
+    "imageURL": "https://www.hola.com/imagenes/cocina/noticiaslibros/20230123224960/recetas-quiches-vegetarianas/1-192-728/quiche-verdur-age-c.jpg",
+    "description": "Savory egg custard baked in a flaky pie crust shell.",
+    "price": 20,
+    "ingredients": "vegetables, eggs, milk, cheese"
+  },
+  {
+    "name": "PASTA",
+    "imageURL": "https://www.hola.com/imagenes/cocina/noticiaslibros/20230123224960/recetas-quiches-vegetarianas/1-192-728/quiche-verdur-age-c.jpg",
+    "description": "Creamy vegan pasta with greens, peas and lemon zest.",
+    "price": 18,
+    "ingredients": "olive oil, scallions, garlic, lemon zest, spinach, salt, vegan parmesan, peas, pasta."
+  }
+]
